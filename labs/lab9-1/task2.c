@@ -4,7 +4,7 @@ int main()
 {
     int data[] = {4, 8, 15, 16, 23, 42};
 
-    int size = sizeof(data);
+    int size = sizeof(data) / sizeof(data[0]);
     printf("Size of the array: %d\n", size);
 
     return 0;
